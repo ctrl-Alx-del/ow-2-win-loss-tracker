@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+}
+
+.Win {
+    height: 100px;
+    width: 50px;
+    margin: 5px;
+    border: solid 4px aquamarine;
+    border-radius: 5px;
+}
+
+.Loss {
+    height: 100px;
+    width: 50px;
+    margin: 5px;
+    border: solid 4px red;
+    border-radius: 5px;
+}
+
+.lossContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    width: 100%;
+}
+
+.winAchieved {
+    background-color: aquamarine;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+.lossGained{
+background-color: red;
+animation-name: fade;
+animation-duration: 2s;
+}
+
+@keyframes fade { 
+    from{
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+
+
+.reset{
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    width: 100%;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 100px;
+}
